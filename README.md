@@ -3,8 +3,11 @@ cloud-saver
 
 Converts a ROS PointCloud2 msg to a pcl::PointCloud&lt;PointT> and saves it as a .pcd
 
+###### Requires
+Robot Operating System (ROS)
+Point Cloud Library (PCL)
 
-To use it:
+###### To use it:
 
 1.  Change the POINTS_TOPIC after the includes to the name of your ROS topic
 
